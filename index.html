@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="./mystyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+  <div class="top">
+    <div style="display: inline-block;"><p style="margin-top: 30px;">My Balance</p> <p style="font-size: 30px; font-weight: bolder; margin-top: 7px;">$921.48</p></div>
+    <img src = "./images/logo.svg" style="float: right;">
+  </div>
+
+  <div class="bottom">
+    <p style="font-size: 24px; font-weight: bolder;">Spending - Last 7 days</p>
+
+    <div class="container" id="cont"> 
+      <div> <div class="val">$52.36</div> <div class="bar" style="height: 140px;"></div> <p class="day">Mon</p></div>
+      <div> <div class="val">$52.36</div> <div class="bar" style="height: 80px;"></div> <p  class="day">Tue</p></div>
+      <div> <div class="val">$52.36</div> <div class="bar" style="height: 330px;"></div> <p class="day">Wed</p></div>
+      <div> <div class="val">$52.36</div> <div class="bar" style="height: 120px;"></div> <p class="day">Thu</p></div>
+      <div> <div class="val">$52.36</div> <div class="bar" style="height: 60px;"></div> <p class="day">Fri</p></div>
+      <div> <div class="val">$52.36</div> <div class="bar" style="height: 80px;"></div> <p class="day">Sat</p></div>
+      <div> <div class="val">$52.36</div> <div class="bar" style="height: 80px;"></div> <p class="day">Sun</p></div>
+    </div>
+
+    <hr style="margin: 35px 0; opacity: 30%;">
+    <div style="display: inline; float: left;"><p style="color: #999287; margin: 5px;">Total This month</p> <p style="font-size: 35px; margin: 5px; font-weight: bolder;">$478.33</p></div>
+
+    <div style="display: inline; float: right; font-size: 14px; text-align: right;"><p style="margin: 3px; margin-top: 30px; font-weight: bolder;">+2.4%</p> <p style="color: #999287; margin: 3px;">from last month</p></div>
+  </div>
+
+  <script type="text/javascript" src="./data.json"></script>
+  <script type="text/javascript" src="./myScript.js"></script>
+  <!-- <script>
+    console.log("Hello world")
+    const cont = document.getElementById("cont");
+    console.log(cont.innerHTML);
+    
+  </script> -->
+  
+
+</body>
+</html>
